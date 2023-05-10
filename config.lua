@@ -24,7 +24,7 @@ lvim.plugins = {
   {
     'wfxr/minimap.vim',
     build = "cargo install --locked code-minimap",
-    -- cmd = {"Minimap", "MinimapClose", "MinimapToggle", "MinimapRefresh", "MinimapUpdateHighlight"},
+    cmd = {"Minimap", "MinimapClose", "MinimapToggle", "MinimapRefresh", "MinimapUpdateHighlight"},
     config = function ()
       vim.cmd ("let g:minimap_width = 10")
       vim.cmd ("let g:minimap_auto_start = 1")
@@ -124,6 +124,7 @@ lvim.plugins = {
 --funtions
 lvim.builtin.terminal.open_mapping = "<c-t>"
 lvim.keys.normal_mode["<S-x>"] = ":q<CR>"
+lvim.keys.normal_mode["<C-n>"] = ":tabnew"
 
 --manipulation
 lvim.keys.visual_mode["<C-c>"] = "y"
@@ -142,8 +143,3 @@ lvim.keys.normal_mode["<C-s>"] = ":w<CR>"
 lvim.keys.normal_mode["<S-h>"] = ":bprev<CR>"
 lvim.keys.normal_mode["<S-l>"] = ":bnext<CR>"
 
---Telescope
--- vim.keymap.set('n', '<leader>ff', require('telescope.builtin').find_files, {})
--- vim.keymap.set('n', '<leader>fg', require('telescope.builtin').live_grep, {})
--- vim.keymap.set('n', '<leader>fb', require('telescope.builtin').buffers, {})
--- vim.keymap.set('n', '<leader>fh', require('telescope.builtin').help_tags, {})
