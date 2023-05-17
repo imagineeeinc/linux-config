@@ -1,3 +1,11 @@
+# Keybinds Sheet
+This is a sheet full of usefull lunarvim keybinds and commands. These commands abd keybinds help you navigate better.
+Both key binds and commands are put in the same file to simplify reading.
+Few of these keys are specific to my configratuon, thus a braket is next to it to suggest the actuall command/ keys.
+If you would like you can cutomize it and anything else in the `config.lua`
+## Leader
+is a key to initlize some commands, in this config is the 'spacebar', you can customise it to be '/' if you like
+
 ## Cursor
 - i: insert text mode
 - v: selection mode
