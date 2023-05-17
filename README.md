@@ -5,7 +5,7 @@
 ### Prerequisites
 - [Neovim v0.9.0+](https://github.com/neovim/neovim/wiki/Installing-Neovim)
 - [Git](https://cli.github.com/)
-- [Make](https://www.gnu.org/software/make/)
+- [GNU Make](https://www.gnu.org/software/make/) ([Windows](https://gnuwin32.sourceforge.net/packages/make.htm))
 - [Pyhton](https://www.python.org/) & [pip](https://pypi.org/project/pip/)
 - [Node & NPM](https://nodejs.org/)
 - [Rust & Cargo](https://www.rust-lang.org/tools/install)
