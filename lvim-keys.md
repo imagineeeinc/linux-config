@@ -16,7 +16,6 @@ is a key to initlize some commands, in this config is the 'spacebar', you can cu
 - Arrowkeys: move around
 
 ## Funtions
-- shift+x: close file
 - ctrl+s (:w/ <leader>w): save
 - shift+x (:q/ <leader>q): close current buffer
 - :qa : close all buffer (quit)
@@ -32,9 +31,9 @@ is a key to initlize some commands, in this config is the 'spacebar', you can cu
 - ctrl+x (x): cut
 - ctrl+shift+v (p): paste
 - shift+p: paste before the cursor
-- shift+z ("_d"): delete (do not put in clipboard)
-- tab (<): indent
-- shift+tab (>): unindent
+- shift+z ("_d): delete (do not put in clipboard)
+- tab (>): indent
+- shift+tab (<): unindent
 
 ## Tabs
 - shift+h (<leader>bb): prev tab
