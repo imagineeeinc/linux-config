@@ -8,7 +8,7 @@ is a key to initlize some commands, in this config is the 'spacebar', you can cu
 
 ## Cursor
 - i: insert text mode
-- v: selection mode
+- v: selection mode (visual mode)
 - o: insert new line bellow
 - shift+o: insert new line above
 - a: enter after the cursor
@@ -27,13 +27,14 @@ is a key to initlize some commands, in this config is the 'spacebar', you can cu
 - alt+3: popup terminal
 
 ## Manipulations
-- ctrl+c (y): copy
-- ctrl+x (x): cut
+- ctrl+c (y): copy (visual mode)
+- ctrl+x (x): cut (visual mode)
 - ctrl+shift+v (p): paste
 - shift+p: paste before the cursor
-- shift+z ("_d): delete (do not put in clipboard)
-- tab (>): indent
-- shift+tab (<): unindent
+- d: delete
+- shift+z ("_d): delete (do not put in clipboard) (visual mode)
+- tab (>): indent (visual mode)
+- shift+tab (<): unindent (visual mode)
 
 ## Tabs
 - shift+h (<leader>bb): prev tab

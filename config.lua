@@ -133,6 +133,9 @@ lvim.keys.visual_mode["<C-S-v>"] = "p"
 lvim.keys.visual_mode["<S-z>"] = '"_d'
 lvim.keys.visual_mode["<tab>"] = ">"
 lvim.keys.visual_mode["<S-tab>"] = "<"
+lvim.keys.normal_mode["<tab>"] = ">>"
+lvim.keys.normal_mode["<S-tab>"] = "<<"
+
 
 --changes
 lvim.keys.normal_mode["<C-z>"] = "u"
