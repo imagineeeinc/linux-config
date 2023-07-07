@@ -37,4 +37,11 @@ Invoke-WebRequest https://raw.githubusercontent.com/lunarvim/lunarvim/master/uti
 - Install [Nerdfont](https://www.nerdfonts.com/)
 
 ### Installing the config
-*work in progress*
+**Linux**
+```bash
+bash install.sh
+```
+
+**Windows**
+*Work in progress*
+
