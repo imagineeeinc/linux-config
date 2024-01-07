@@ -3,12 +3,13 @@
 -- Forum: https://www.reddit.com/r/lunarvim/
 -- Discord: https://discord.com/invite/Xb9B4Ny
 
-lvim.colorscheme = "neon"
+vim.cmd.colorscheme = "catppuccin"
 lvim.use_icons = true
 lvim.leader = "space"
 lvim.builtin.treesitter.rainbow.enable = true
 
 vim.g.transparent_background = true        -- transparent background(Default: false)
+lvim.transparent_window = true
 vim.g.italic_comments = true               -- italic comments(Default: true)
 vim.g.italic_keywords = true               -- italic keywords(Default: true)
 vim.g.italic_functions = true              -- italic functions(Default: false)
@@ -119,6 +120,19 @@ lvim.plugins = {
   {
     "brooth/far.vim",
   },
+  {
+    "christoomey/vim-tmux-navigator",
+    lazy = false,
+  },
+  { "catppuccin/nvim",
+    name = "catppuccin",
+    opts = {
+      flavour = "macchiato",
+    },
+  },
+  {
+    "vimpostor/vim-tpipeline"
+  }
 }
 
 --funtions
