@@ -1,6 +1,8 @@
 # My Linux config
 Includes config to my linux setup, mainly dot files and config.
 
+Mainly includes **LunarVim** and **tmux**
+
 ## Main Workflow Apps
 - [Lunarvim](https://lunarvim.org/) is *cool* neovim bassed editor with **extra** features built in ([Installing](https://www.lunarvim.org/docs/installation)).
 - [tmux](https://github.com/tmux/tmux) is a *terminal multiplexer* (Install from built in package manager).
