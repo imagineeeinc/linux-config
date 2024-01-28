@@ -9,25 +9,24 @@ export ZSH="$HOME/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-#ZSH_THEME="robbyrussell"
-export ALIEN_USE_NERD_FONT=1
-export ALIEN_KEEP_PROMPT=1
-export ALIEN_SECTIONS_LEFT=(
-  exit
-  path
-  ssh
-  venv
-  newline
-  prompt
-)
+# ZSH_THEME="half-life"
 
-export ALIEN_SECTIONS_RIGHT=(
-  vcs_branch:async
-  vcs_status:async
-  versions
-  time
-)
-source ~/themes/alien/alien.zsh
+source ~/themes/headline.zsh-theme
+
+HEADLINE_DO_CLOCK=true
+HEADLINE_LINE_MODE="auto"
+HEADLINE_USER_CMD="whoami"
+HEADLINE_STYLE_USER=$bold$yellow
+HEADLINE_STYLE_USER_LINE=$bold$yellow
+HEADLINE_HOST_CMD=""
+HEADLINE_HOST_TO_PATH=" "
+HEADLINE_USER_PREFIX=""
+HEADLINE_PATH_PREFIX="> "
+HEADLINE_PROMPT="[ "
+HEADLINE_RPROMPT=" ]"
+HEADLINE_DO_ERR=true
+
+
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
 
@@ -82,7 +81,7 @@ source ~/themes/alien/alien.zsh
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(git cp npm node python tmux zoxide)
 
 source $ZSH/oh-my-zsh.sh
 
