@@ -14,7 +14,7 @@ export ZSH="$HOME/.oh-my-zsh"
 source ~/themes/headline.zsh-theme
 
 HEADLINE_DO_CLOCK=true
-HEADLINE_LINE_MODE="auto"
+HEADLINE_LINE_MODE="on"
 HEADLINE_USER_CMD="whoami"
 HEADLINE_STYLE_USER=$bold$yellow
 HEADLINE_STYLE_USER_LINE=$bold$yellow

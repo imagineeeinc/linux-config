@@ -13,12 +13,14 @@ Also a neat feature about lunar vim is pressing the `<leader>` will opena pane a
 pressing one will run it or if it has a sub command it will show more commands. Try doing `<leader>-g` to show all the git commands.
 
 ## Cursor
-- `i` insert text mode.
+- `i`: insert text mode.
+- `I`: Insert at start of line.
 - `v`: selection mode (visual mode).
+- `Ctrl+Alt+up/down (ctrl+v)`: Block selection mode, follow it by a `I` type your change and `esc` to do multiline editing.
 - `o`: insert new line bellow.
-- `shift+o`: insert new line above.
+- `O`: insert new line above.
 - `a`: enter after the cursor.
-- `shift+a`: go to end of the line.
+- `A`: go to end of the line.
 - `Arrowkeys`: move around.
 
 ## Funtions
