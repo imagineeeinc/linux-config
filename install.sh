@@ -1,6 +1,7 @@
 # Workflow
 cp ./config.lua ~/.config/lvim/config.lua
 cp ./tmux.conf ~/.config/tmux/tmux.conf
+cp ./tilde.conf  ~/.config/tilde/config
 # Shell
 cp ./.bashrc ~/.bashrc
 cp ./.zshrc ~/.zshrc
