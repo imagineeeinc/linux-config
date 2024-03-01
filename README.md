@@ -1,6 +1,8 @@
 # My Linux config
 Includes config to my linux setup, mainly dot files and config.
 
+> NOTE: Has now moved to [imagineee/dot](https://github.com/imagineeeinc/dot). This repo is no longer being updated.
+
 Mainly includes **LunarVim** and **tmux**
 
 ## Main Workflow Apps
